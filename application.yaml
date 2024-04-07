@@ -1,0 +1,45 @@
+server:
+  port: 90
+  name: JwtCreate
+
+service:
+  config:
+    jwt:
+      secrets:
+        public: | 
+          -----BEGIN RSA PUBLIC KEY-----
+          MIIBCgKCAQEAs81DeFnVVNo4vHV69WpXpfKHH6BTJXRKokom3MovLWa/0zKhiunw
+          0eOeWXIRGNf9+wttKYTnwpmUJy4SOD26nr407eidnpOTqUqeJGip226ci1UD9rM/
+          RCFNDbPizfdJ7WwnTjvk5ZWIDiXLZUdqOWigaQy6FBGQZJT6UXPlQhBuft6bF9O5
+          +87tz/aAJs0hv8BP0WcxFmV6zN/Gaz8GKBl6vVq86R1VhvhmT59MpndjTxXycKIZ
+          HLPSVx4gK5d6qEpJoQOxyGtwOANqy6rG46ME1wtt+L8avMNh1OrqGEIFwaMRalZV
+          SFs+ufaBY28X6rMCdAMtweJgYr07vGckBQIDAQAB
+          -----END RSA PUBLIC KEY-----
+        private: |
+          -----BEGIN RSA PRIVATE KEY-----
+          MIIEogIBAAKCAQEAs81DeFnVVNo4vHV69WpXpfKHH6BTJXRKokom3MovLWa/0zKh
+          iunw0eOeWXIRGNf9+wttKYTnwpmUJy4SOD26nr407eidnpOTqUqeJGip226ci1UD
+          9rM/RCFNDbPizfdJ7WwnTjvk5ZWIDiXLZUdqOWigaQy6FBGQZJT6UXPlQhBuft6b
+          F9O5+87tz/aAJs0hv8BP0WcxFmV6zN/Gaz8GKBl6vVq86R1VhvhmT59MpndjTxXy
+          cKIZHLPSVx4gK5d6qEpJoQOxyGtwOANqy6rG46ME1wtt+L8avMNh1OrqGEIFwaMR
+          alZVSFs+ufaBY28X6rMCdAMtweJgYr07vGckBQIDAQABAoIBAHQFQsE5LnhXa/7n
+          y9Tqru4NJnYY7S4g8Tvxn0wfRvwD7knoxOaveE7nkrli6ndegKvqvqDo+ufOVBRI
+          HUefRXnDgMH3tSWrUsANvyf9RYWrxWX/ENSy62MaHe92oSaIqHKEtIQ+D8C5kZaX
+          ery6rWeoBMJkjPoAL21H2JKQt2G9xEeVfv15mps13BN+9IoCAxVk1xnXp43/cj3W
+          kEHln1shkpqSY0hAOeveoTjy/jsM7uuaqRRb2gt7/hBKGfrF9xfDqQjFYx+MH8GV
+          xGJncPUOkX7kuXBSUAUblA0mt3xChoj3Mch2aVRfftYAsxkQiLFg09zUqr853hA0
+          ZPo9Ro0CgYEA7b0jVyX0USlbu8ZshFMHZ1cLXxz+H4iNPFFYLUsvVUZmj5BcWKIz
+          /5rawL3/KkoO9y+zI6i1P9tHdUmSzA0/1Qs9woK9qefIRAukvo0tq5aQI/1GMf7V
+          78pMTzEB4u87H+1F79plqbsw1eqKwVQc2FycjlqxiYxyKqszVjiEKesCgYEAwZzc
+          SMN+GonKw84u9KwQRwmQJk4ZrGUOPyQCFfWezuit2nkZc71zHTlQVsKBxLMcxVlj
+          TMxc5eZDHG3fudyjGX+1bhiffcPvlDx2j3n3WbwWVOIJzqkK4MtTOPeXIZit3nQL
+          /xbUuNQHrDUz3nZeG9PKpJ1IqRUganF3NUFU/c8CgYAGQe01NQWKQVltxtpCXWEb
+          gjoFZeD2eYSmKsn0Xz8+slyuuLEFkDdoKe5KFnYp6csdDH9dl+o1ZRMrbiVUA6FD
+          fUlB3mkZmMU3rUrHzTV/h7YBjIAVfsyoxB1gFD0leQCIZZlqp8f3QLsXVlYSoqEj
+          vMROJur3YN/8aYcvZMttwwKBgBYJ6PlPZ3dV4ALR4X5wZ5nueL4jfcCl8C03yBT/
+          1Ifw7HlF96O5GPVmpMJ7eZIOYWQFfMwtJxX0VAdUancZqmcoplpV6zHBr+/LwiMq
+          2wEX6+LVqBAiJd7Yxixh4o4sdv4vb34l9yji2cy8cZ8NEkFQpmx+itrUUNBNAijJ
+          uwb5AoGAVMhLFQfKlMFxmSwGph4FhQ4BqIEJAKYluEcA+Abmr/LCfAFtrQDFwUif
+          4WrOq846Dg3JuM8t60eDBWOb11WmQ9kleQmlRXd3ems5ItXe36hA5dzpEAfy+NWQ
+          dE9WY3pcELcPXNBNxE3M4Tt8VgrvQKdLRqBV2pJM9q9k80tFufw=
+          -----END RSA PRIVATE KEY-----
